@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campussubprograms",
+  "info": {
+    "singularName": "campussubprogram",
+    "pluralName": "campussubprograms",
+    "displayName": "Campussubprograms",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "courseType": {
+      "type": "string"
+    },
+    "courseDuration": {
+      "type": "string"
+    },
+    "Admission": {
+      "type": "richtext"
+    },
+    "Benifits": {
+      "type": "richtext"
+    },
+    "EmpOpp": {
+      "type": "richtext"
+    },
+    "courseDescription": {
+      "type": "blocks"
+    }
+  }
+}
